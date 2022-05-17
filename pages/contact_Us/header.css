@@ -91,9 +91,12 @@ header{
     position: fixed;
     top: -110%;
     flex-direction: column;
-    background-color: rgba(24, 26, 24, 0.432);
+    background-color: rgba(21, 26, 21, 0.877);
     text-align: center;
     transition: .3s;
+  }
+  .menuSection li a{
+    font-size: .45em;
   }
   .active{
     top: 0;

@@ -3,7 +3,7 @@ footer{
   background-color: rgb(26, 58, 26);
 
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   gap: 10px;
 }
@@ -21,9 +21,6 @@ footer{
   justify-content: space-evenly;
   align-items: center;
   gap: 10px;
-}
-.socialMedia > p {
-  font-size: .6em;
 }
 .socialMedia a{
   width: 55px;
@@ -46,4 +43,16 @@ footer{
 }
 .socialMedia > a:nth-child(3):hover{
   background-image: url(img/footerIcon/55px_45px/tripAdvisorpngHover.png);
+}
+@media (max-width: 860px) {
+  .restorauntName p,
+  .copyrightField{
+    margin-left: 1.6em;
+    font-size: .4em;
+    color: rgba(214, 171, 115, 0.849);
+  }
+  .socialMedia{
+    gap: 1.2em;
+    margin-right: .6em;
+  }
 }
