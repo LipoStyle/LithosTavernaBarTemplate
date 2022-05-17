@@ -1,0 +1,49 @@
+footer{
+  width: 100%;
+  background-color: rgb(26, 58, 26);
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+.restorauntName p{
+  font-size: .7em;
+  color: rgba(214, 171, 115, 0.849);
+}
+.copyrightField{
+  font-size: .7em;
+  color: rgba(214, 171, 115, 0.849);
+}
+.socialMedia{
+  color: rgba(214, 171, 115, 0.849);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+.socialMedia > p {
+  font-size: .6em;
+}
+.socialMedia a{
+  width: 55px;
+  height: 45px;
+}
+.socialMedia > a:nth-child(1){
+  background-image: url(img/footerIcon/55px_45px/facebook.png);
+}
+.socialMedia > a:nth-child(1):hover{
+  background-image: url(img/footerIcon/55px_45px/facebookHover.png);
+}
+.socialMedia > a:nth-child(2){
+  background-image: url(img/footerIcon/55px_45px/instagram.png);
+}
+.socialMedia > a:nth-child(2):hover{
+  background-image: url(img/footerIcon/55px_45px/instagramHover.png);
+}
+.socialMedia > a:nth-child(3){
+  background-image: url(img/footerIcon/55px_45px/tripAdvisorpng.png);
+}
+.socialMedia > a:nth-child(3):hover{
+  background-image: url(img/footerIcon/55px_45px/tripAdvisorpngHover.png);
+}
