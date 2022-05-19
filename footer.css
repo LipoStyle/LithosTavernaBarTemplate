@@ -1,4 +1,4 @@
-footer{
+#footer{
   width: 100%;
   background-color: rgb(26, 58, 26);
 
@@ -7,7 +7,7 @@ footer{
   align-items: center;
   gap: 10px;
 }
-.restorauntName p{
+.companyName p{
   font-size: .7em;
   color: rgba(214, 171, 115, 0.849);
 }
@@ -45,7 +45,7 @@ footer{
   background-image: url(img/footerIcon/55px_45px/tripAdvisorpngHover.png);
 }
 @media (max-width: 860px) {
-  .restorauntName p,
+  .companyName p,
   .copyrightField{
     margin-left: 1.6em;
     font-size: .4em;

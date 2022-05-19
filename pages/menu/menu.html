@@ -5,44 +5,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lithos tavernaBar: Menu</title>
+  <!-- import some react scripts -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <!-- Load Babel -->
+  <!-- v6 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <!-- import some css files -->
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="header.css">
   <link rel="stylesheet" href="footer.css">
-  <script src="script.js" defer></script>
 </head>
 <body>
   <!-- this is the header sectioin -->
-  <header>
-    <!-- this is the logo section -->
-    <div class="logoSection">
-      <img src="../../img/headerLogo.jpg">
-    </div>
-    <!-- this is the menu section -->
-    <ul class="menuSection">
-      <li><a href="../../index.html">Home</a></li>
-      <li><a href="menu.html">Menu</a></li>
-      <li><a href="../contact_Us/contactUs.html">Contact Us</a></li>
-      <li><a href="../about/about.html">About</a></li>
-    </ul>
-    <!-- this is the burger menu section -->
-    <div class="burgerMenu">
-      <span class="bar1"></span>
-      <span class="bar2"></span>
-      <span class="bar3"></span>
-    </div>
-  </header>
+  <header></header>
+  <script type="text/babel" src="headerScript.js" defer></script>
 
 <!-- this is the footer section -->
-<footer>
-  <div class="restorauntName">
-    <p>Lithos tavernaBar</p>
-  </div>
-  <p class="copyrightField">	&copy; 2022 	&copy;</p>
-  <div class="socialMedia">
-    <a href="#"></a>
-    <a href="#"></a>
-    <a href="#"></a>
-  </div>
-</footer>
+<footer></footer>
+<script type="text/babel" src="footerScript.js" defer></script>
 </body>
 </html>
