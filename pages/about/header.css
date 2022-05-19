@@ -91,16 +91,18 @@
     position: fixed;
     top: -110%;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: rgba(21, 26, 21, 0.877);
-    text-align: center;
     transition: .3s;
-    gap: 0;
+
   }
   .menuSection li a{
-    font-size: .45em;
+    font-size: .85em;
   }
   .active{
     top: 0;
+    height: 100%;
   }
   .burgerMenu{
     display: flex;

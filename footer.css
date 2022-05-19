@@ -45,14 +45,12 @@
   background-image: url(img/footerIcon/55px_45px/tripAdvisorpngHover.png);
 }
 @media (max-width: 860px) {
+  #footer{
+    padding: 0em .2em;
+  }
   .companyName p,
   .copyrightField{
-    margin-left: 1.6em;
-    font-size: .4em;
+    font-size: .3em;
     color: rgba(214, 171, 115, 0.849);
-  }
-  .socialMedia{
-    gap: 1.2em;
-    margin-right: .6em;
   }
 }
