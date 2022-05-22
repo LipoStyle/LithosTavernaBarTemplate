@@ -1,7 +1,7 @@
 #header{
   margin-bottom: 0.08em;
   width: 100%;
-  background-color: #004643;
+  background-color: rgb(26, 58, 26);
 
   display: flex;
   justify-content: space-evenly;
@@ -27,14 +27,18 @@
   align-items: center;
 }
 .menuSection li{
-  text-align: center;
+  width: 100%;
+  text-align: left;
 }
 .menuSection li a{
-  font-size: 0.7em;
+  font-size: 0.5em;
   text-decoration: none;
-  color: #F9BC60;
+  color: rgba(214, 171, 115, 0.849);
+  transition: all .3s ease-in-out;
 }
 .menuSection li a:hover{
+  font-size: .7em;
+  letter-spacing: .1em;
   color: #E16162;
 }
 /* burger menu section */
@@ -54,7 +58,7 @@
   height: 5px;
   border-radius: .1em;
   margin: 0.1em;
-  background-color: #f9bc60cb;
+  background-color: rgba(214, 171, 115, 0.849);
   transition: 0.4s;
 }
 
@@ -87,12 +91,18 @@
     top: -110%;
     flex-direction: column;
     justify-content: center;
-    background-color: #004643a2;
+    background-color: rgba(23, 24, 23, 0.842);
     transition: .3s;
     gap: .5em;
   }
+  .menuSection li{
+    text-align: center;
+  }
   .menuSection li a{
     font-size: .65em;
+  }
+  .menuSection li a:hover{
+    font-size: .85em;
   }
   .active{
     top: 0;
