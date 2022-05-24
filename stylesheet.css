@@ -159,6 +159,12 @@
     width: 55px;
     height: 45px;
   }
+  .previusImage{
+    margin-left: 0px;
+  }
+  .nextImage{
+    margin-right: 0px;
+  }
 }
 @media (max-width: 380px){
   .otherImages img{
