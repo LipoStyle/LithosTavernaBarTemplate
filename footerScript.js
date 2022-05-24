@@ -1,12 +1,3 @@
-/* <div class="restorauntName">
-    <p>Lithos tavernaBar</p>
-  </div>
-  <p class="copyrightField">	&copy; 2022 	&copy;</p>
-  <div class="socialMedia">
-    <a href="#"></a>
-    <a href="#"></a>
-    <a href="#"></a>
-  </div> */
 
   // creating the name of the company
   function CompanyNameComponent(){
