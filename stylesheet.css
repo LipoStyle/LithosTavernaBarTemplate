@@ -118,8 +118,7 @@
   box-shadow: 2px 4px 21px 1px rgba(138, 103, 30, 0.596);
 }
 .otherImages{
-  width: 1200px;
-  height: 90px;
+  width: 80%;
   display: flex;
   justify-content: center;
   gap: 10px;
