@@ -9,7 +9,7 @@
   background-image: url(img/background.jpg);
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   margin-bottom: .1em;
 }
 .nameOfRestaurant{
@@ -83,10 +83,10 @@
   transition: all .3s ease-in-out;
 }
 .previusImage{
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .nextImage{
-  margin-right: 20px;
+  margin-right: 10px;
 }
 .previusImage:hover,
 .nextImage:hover{
@@ -100,6 +100,7 @@
   font-size: 100px;
 }
 .imageSlide{
+  padding: 10px;
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -114,10 +115,11 @@
 }
 .mainImage img{
   width: 100%;
-  box-shadow: 10px 9px 41px 11px rgba(138, 103, 30, 0.596);
+  box-shadow: 2px 4px 21px 1px rgba(138, 103, 30, 0.596);
 }
 .otherImages{
-  width:80%;
+  width: 1200px;
+  height: 90px;
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -135,11 +137,25 @@
   .nextImage p{
   font-size: 60px;
   }
+  .otherImages img {
+    width:85px;
+    height: 55px;
+  }
 }
-@media (max-width: 860px) {
+@media (max-width: 600px) {
   .previusImage p,
   .nextImage p{
   font-size: 60px;
+  }
+  .otherImages img{
+    width: 55px;
+    height: 45px;
+  }
+}
+@media (max-width: 380px){
+  .otherImages img{
+    width: 35px;
+    height: 25px;
   }
 }
 /* section 3 choices */
