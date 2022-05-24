@@ -86,7 +86,6 @@
     margin: 0px 10px;
   }
   .menuSection{
-    padding-bottom: 10em;
     position: fixed;
     top: -110%;
     flex-direction: column;
