@@ -5,3 +5,34 @@
   font-size: 36px;
   box-sizing: border-box;
 }
+
+#mainBody{
+  /* background-image: url(../../img/background.jpg); */
+  background-color: rgba(0, 0, 0, 0.884);
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+  margin-bottom: .1em;
+}
+#mainBody p{
+  font-size: .8em;
+  color: rgb(255, 255, 255);
+}
+span{
+  font-size: .8em;
+  color: rgb(97, 91, 91);
+}
+#mainBody h2{
+  text-align: center;
+  color: aliceblue;
+}
+#mainBody > div{
+  border-bottom: 10px solid white;
+}
+ol li {
+  border-bottom: 1px solid rgb(87, 67, 12);
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
