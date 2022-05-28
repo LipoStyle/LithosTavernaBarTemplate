@@ -17,7 +17,7 @@ body{
   flex-direction: column;
   justify-content: center;
   gap: 10px;
-  padding: 20px;
+  padding: 10px;
 }
 #mainBody p{
   font-size: .8em;
@@ -29,13 +29,14 @@ body{
 }
 #mainBody h2{
   text-align: center;
-  text-shadow: 0 0 10px rgb(105, 64, 10);
+  text-shadow: 0 0 10px rgba(105, 64, 10, 0.788);
   color: #213b2b;
 }
 #mainBody > div{
   padding: 10px;
   border-radius: 10px;
   background-color: rgba(214, 171, 115, 0.651);
+  box-shadow: 2px 2px 10px 3px rgba(19, 43, 34, 0.705);
   /* border-bottom: 10px solid white; */
 }
 ol li {
