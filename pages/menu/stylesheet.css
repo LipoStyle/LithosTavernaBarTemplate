@@ -83,6 +83,9 @@ a > p.active {
   font-size: .8em;
   color: rgb(19, 43, 34);
 }
+#mainBody p.price{
+  font-weight: bold;
+}
 #mainBody span{
   font-size: .8em;
   color: rgb(87, 12, 12);
@@ -133,7 +136,7 @@ ol li {
     width: 28px;
   }
   .options > div:nth-child(1) {
-    padding:5px 20px 5px 0px ;
+    padding:0px 20px 0px 0px ;
   }
   .foodOrDrink > a > p{
     font-size: .6em;

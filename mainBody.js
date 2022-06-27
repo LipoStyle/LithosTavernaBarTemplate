@@ -73,9 +73,9 @@ function CardsComponent({title, text,link,linkName}){
 function ThirdSectionComponent(){
   return (
     <div class="someChoices">
-      <CardsComponent title={"Look our Menu"} text={textToUse} link={"pages/menu/menu.html"} linkName={"Menu"}/>
-      <CardsComponent title={"Get in touch with us"} text={textToUse} link={"pages/menu/menu.html"} linkName={"Contact Us"}/>
-      <CardsComponent title={"Find more about us"} text={textToUse} link={"pages/menu/menu.html"} linkName={"About"}/>
+      <CardsComponent title={"Look our Menu"} text={textToUse} link={"pages/menu/menuFGr.html"} linkName={"Menu"}/>
+      <CardsComponent title={"Get in touch with us"} text={textToUse} link={"pages/contact_us/contactUs.html"} linkName={"Contact Us"}/>
+      <CardsComponent title={"Find more about us"} text={textToUse} link={"pages/about/about.html"} linkName={"About"}/>
     </div>
   )
 }
