@@ -86,3 +86,12 @@
   width: 55px;
   height: 45px;
 }
+/* styling the map */
+.locationSection{
+  width: 400px;
+  padding-top: 20px;
+  border: 2px solid black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}

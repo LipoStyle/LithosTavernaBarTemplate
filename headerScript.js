@@ -18,7 +18,7 @@ function UlComponent(){
   return (
     <ul class="menuSection">
       <LiComponent liUrl={"index.html"} name={"Home"} />
-      <LiComponent liUrl={"pages/menu/menu.html"} name={"Menu"} />
+      <LiComponent liUrl={"pages/menu/menuFGr.html"} name={"Menu"} />
       <LiComponent liUrl={"pages/contact_Us/contactUs.html"} name={"Contact Us"} />
       <LiComponent liUrl={"pages/about/about.html"} name={"About"} />
     </ul>

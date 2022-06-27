@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lithos tavernaBar: Menu</title>
+  <!-- import some react scripts -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <!-- Load Babel -->
+  <!-- v6 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <!-- import some css files -->
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+  <!-- this is the header sectioin -->
+  <header></header>
+  <script type="text/babel" src="headerScript.js" defer></script>
+
+  <!-- this is the main body sectioin -->
+  <div class="options">
+    <div class="language">
+      <a href="menuFGr.html"><img  src="../../img/languageFlags/greekFlag.jpg"></a>
+      <a href="menuFEn.html"><img src="../../img/languageFlags/englishFlag.png" class="languageActive"></a>
+    </div>
+    <div class="foodOrDrink">
+      <a href="menuFEn.html"><p class="active">Food</p></a>
+      <a><p href="menuDEn.html">Drink</p></a>
+    </div>
+  </div>
+  <!-- <script src="optionForMenu.js" defer></script> -->
+  <!-- this is the main body sectioin -->
+  <div id="mainBody"></div>
+  <script type="text/babel" src="foodMenuEn.js" defer></script>
+  <!-- this is the footer section -->
+  <footer></footer>
+  <script type="text/babel" src="footerScript.js" defer></script>
+</body>
+</html>
