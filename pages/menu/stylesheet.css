@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Smooch', cursive;
+  font-family: 'Open Sans', sans-serif;
   font-size: 36px;
   box-sizing: border-box;
 }
@@ -129,13 +129,13 @@ ol li {
   #mainBody h2{
     font-size: .8em;
   }
-  .language > img{
+  .language > a > img{
     width: 28px;
   }
   .options > div:nth-child(1) {
     padding:5px 20px 5px 0px ;
   }
-  .foodOrDrink p{
+  .foodOrDrink > a > p{
     font-size: .6em;
   }
 }
