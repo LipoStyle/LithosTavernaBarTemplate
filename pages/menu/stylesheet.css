@@ -23,7 +23,8 @@ body{
   background-color: rgba(26, 58, 26, 0.904);
   display: flex;
   justify-content: flex-end;
-  align-items: flex-start;
+  align-items: center;
+  align-content: center;
   gap: 10px;
 }
 .language > a > img{
@@ -134,6 +135,7 @@ ol li {
   }
   .language > a > img{
     width: 28px;
+    height: 17px;
   }
   .options > div:nth-child(1) {
     padding:0px 20px 0px 0px ;
