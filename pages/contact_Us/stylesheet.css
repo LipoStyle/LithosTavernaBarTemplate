@@ -77,13 +77,6 @@
   height: 45px;
 } */
 /* styling the map */
-.locationSection{
-  margin: 0;
-  padding: 0;
-  border: 2px solid black;
-  background-color: rgb(17, 15, 13);
-  border-radius: 10px;
-}
 .mapouter,
 .gmap_canvas{
   margin: 0;
@@ -91,9 +84,13 @@
   width: 100%;
   height: 100%;
 }
+.gmap_canvas{
+  padding:5px;
+}
 iframe{
-  margin: 10px 5px 0px 5px;
-  padding: 0;
+  width: 100%;
+  height: 400px;
+  padding: 0px;
   border-radius: 10px;
 }
 @media(max-width: 880px){

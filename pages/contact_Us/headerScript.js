@@ -3,6 +3,8 @@ function LogoComponent({logoUrl}){
   return (
     <div class="logoSection">
       <img src={logoUrl}></img>
+      <p>LITHOS</p>
+      <p>tavernaBar</p>
     </div>
   )
 }
@@ -40,7 +42,7 @@ function BurgerComponent(){
 function HeaderComponent(){
   return (
     <div id="header">
-      <LogoComponent logoUrl={"../../img/headerLogo.jpg"} />
+      <LogoComponent logoUrl={"../../img/logo_site.png"} />
       <UlComponent />
       <BurgerComponent/>
     </div>

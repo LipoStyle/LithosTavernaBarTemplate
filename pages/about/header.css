@@ -1,7 +1,8 @@
 #header{
   margin-bottom: 0.08em;
   width: 100%;
-  background-color: rgb(26, 58, 26);
+  /* background: rgb(255,255,255); */
+background: linear-gradient(119deg, rgba(255,255,255,0.8527701104100947) 31%, rgba(26,58,26,0.93) 31%);
 
   display: flex;
   justify-content: space-evenly;
@@ -11,12 +12,29 @@
 .logoSection{
   width: 45%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  /* background-color: aliceblue; */
 }
 .logoSection img{
   margin: 5px;
   width: 50px;
   height: 50px;
+  box-shadow: rgba(0, 0, 0, 0.815) 0px 25px 20px -20px;
+}
+.logoSection > p:nth-child(2) {
+  font-size: 35px;
+  color: rgb(26, 58, 26);
+  font-weight: 600;
+  letter-spacing: 10px;
+  margin-top: -10px;
+}
+.logoSection > p:nth-child(3) {
+  font-size: 15px;
+  color: #d5b060d6;
+  letter-spacing: 5px;
+  margin-top: -10px;
 }
 .menuSection{
   width: 100%;
@@ -28,12 +46,12 @@
 }
 .menuSection li{
   width: 100%;
-  text-align: left;
+  text-align: center;
 }
 .menuSection li a{
   font-size: 0.5em;
   text-decoration: none;
-  color: rgba(214, 171, 115, 0.849);
+  color: #d5b060d6;
   transition: all .3s ease-in-out;
 }
 .menuSection li a:hover{
@@ -58,7 +76,7 @@
   height: 5px;
   border-radius: .1em;
   margin: 0.1em;
-  background-color: rgba(214, 171, 115, 0.849);
+  background-color: #d5b060d6;
   transition: 0.4s;
 }
 
@@ -80,10 +98,11 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+background: linear-gradient(42deg, rgba(233,236,233,1) 71%, rgba(26,58,26,1) 72%);
   }
   .logoSection{
     justify-content: flex-start;
-    margin: 0px 10px;
+    margin-left: -200px;
   }
   .menuSection{
     position: fixed;
@@ -92,7 +111,7 @@
     justify-content: center;
     background-color: rgba(23, 24, 23, 0.842);
     transition: .3s;
-    gap: .5em;
+    gap: 1em;
   }
   .menuSection li{
     text-align: center;
