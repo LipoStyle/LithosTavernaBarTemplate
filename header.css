@@ -97,6 +97,7 @@ background: linear-gradient(119deg, rgba(255,255,255,0.8527701104100947) 31%, rg
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+background: linear-gradient(42deg, rgba(233,236,233,1) 71%, rgba(26,58,26,1) 72%);
   }
   .logoSection{
     justify-content: flex-start;
