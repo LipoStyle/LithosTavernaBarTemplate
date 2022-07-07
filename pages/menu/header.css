@@ -1,8 +1,7 @@
 #header{
   margin-bottom: 0.08em;
   width: 100%;
-  /* background: rgb(255,255,255); */
-background: linear-gradient(119deg, rgba(255,255,255,0.8527701104100947) 31%, rgba(26,58,26,0.93) 31%);
+background: linear-gradient(119deg, rgba(255,255,255) 31%, rgb(26, 58, 26) 31%);
 
   display: flex;
   justify-content: space-evenly;
